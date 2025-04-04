@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\miwebmedia.Client\miwebmedia.Client.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.0" />
+	    <PackageReference Include="Syncfusion.Blazor.Navigations" Version="29.1.35" />
+    <PackageReference Include="Syncfusion.Blazor.Spinner" Version="29.1.35" />
+    <PackageReference Include="Syncfusion.Blazor.DropDowns" Version="29.1.35" />
+    <PackageReference Include="Syncfusion.Blazor.StockChart" Version="29.1.35" />
+    <PackageReference Include="Syncfusion.Blazor.InPlaceEditor" Version="29.1.35" />
+    <PackageReference Include="Syncfusion.Blazor.Calendars" Version="29.1.35" />
+    <PackageReference Include="Syncfusion.Blazor.Themes" Version="29.1.35" />
+  </ItemGroup>
+  
+  
+
+</Project>
